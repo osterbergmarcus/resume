@@ -416,3 +416,8 @@ hr {
 .badge-right-float {
     float: right;
 }
+
+.info{
+  width: 300px;
+  height: 200px;
+}
