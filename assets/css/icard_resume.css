@@ -211,7 +211,7 @@ hr {
     position: absolute;
     top: 24px;
     margin-left: -70px;
-    background-color: #999999;
+    background-color: #B0B0B0;
     z-index: 100;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -253,7 +253,7 @@ hr {
 }
 
 .timeline-badge.info {
-    background-color: #5bc0de !important;
+    background-color: #B0B0B0 !important;
 }
 
 .timeline-title {
@@ -338,11 +338,11 @@ hr {
     padding: 10px;
     margin-bottom: 6px;
     border-radius: 5px;
-    background: #4B6F78;
+    background: #6A6A6A;
 }
 
 .list-strip li:nth-child(even) {
-    background: #BA4E4E;
+    background: #6A6A6A;
 }
 
 .btn-flat {
@@ -391,7 +391,7 @@ hr {
     padding-bottom: 10px;
     position: absolute;
     left: 0;
-    background: #249EBD;
+    background: #186D82;
     padding: 10px;
     color: white;
     min-width: 40px;
@@ -408,7 +408,7 @@ hr {
     left: 50%;
     margin-left: -10px;
     bottom: -10px;
-    border-top: 10px solid #249EBD;
+    border-top: 10px solid #186D82;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
