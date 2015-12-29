@@ -1,20 +1,19 @@
 <div class="header">
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="col-sm-4">
+            <div class="col-md-6">
                 <img src="http://osterbergmarcus.github.io/assets/img/avatar.jpg" title="Avatar" alt="My Avatar">
-                <h4>{{ site.author.name }}</h4>
+                <h4><strong>{{ site.author.name }}</strong></h4>
                 <p>{{ site.author.title }}</p>
                 <p class="muted">{{ site.author.address }}</p>
                 <a href="http://marcusosterberg.com/">marcusosterberg.com</a>
+                <br/>
+                <a href="mailto:marcusterberg@gmail.com">marcusterberg@gmail.com</a>
+                <br/>
+                <br/>
+                <p><a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x"></i> </a>
+                  <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></p>
                 <div class="clearfix"></div>
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
-                <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
-                <p><i class="fa fa-github fa-fw"></i><a href="https://github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
-                <p><i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block">
             </div>
         </div>
     </div>
